@@ -1,4 +1,4 @@
 config.inc.php
-normal/*
-thumb/*
-upload_img/*
+normal/**
+thumb/**
+upload_img/**
