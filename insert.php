@@ -1,8 +1,4 @@
 <?php
-if (!isset($_SESSION)) {
-	header("Location: login.php");
-	exit();
-}
 include ("config.inc.php");
 include ("top_foot.inc.php");
 

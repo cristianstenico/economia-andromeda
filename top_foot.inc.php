@@ -1,3 +1,9 @@
+<?php 
+if (!isset($_SESSION)) {
+	header("Location:login.php");
+	exit();
+}
+?>
 <?php function top() { ?>
 <html>
 <head>
