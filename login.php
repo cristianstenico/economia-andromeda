@@ -1,6 +1,6 @@
 <html> 
 <head> 
-<title>Festival dell'Economia 2016</title> 
+<title>Festival dell'Economia 2017</title> 
 </head>
 <body>
 <form method="post">
