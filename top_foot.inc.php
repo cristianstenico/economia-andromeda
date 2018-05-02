@@ -1,10 +1,11 @@
-<?php 
+<?php
 if (!isset($_SESSION)) {
-	header("Location:login.php");
-	exit();
+    header("Location:login.php");
+    exit();
 }
 ?>
-<?php function top() { ?>
+<?php function top()
+{?>
 <html>
 <head>
 <meta name=generator content="Script di freephp.it">
@@ -14,8 +15,9 @@ if (!isset($_SESSION)) {
 <h1>STUDIOANDROMEDA.NET</h1><br>
 <?php }
 
-function foot() { ?>
+function foot()
+{?>
 </font>
 </body>
 </html>
-<?php } ?>
+<?php }?>

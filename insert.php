@@ -1,6 +1,6 @@
 <?php
-include ("config.inc.php");
-include ("top_foot.inc.php");
+include "config.inc.php";
+include "top_foot.inc.php";
 
 //intestazione
 top();

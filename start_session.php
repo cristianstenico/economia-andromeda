@@ -1,11 +1,10 @@
 <?php
-include("config.inc.php");
+include "config.inc.php";
 if ($_POST["pass"] == $password) {
-	start_session();
-	header("Location:insert.php");
-	exit();
+    start_session();
+    header("Location:insert.php");
+    exit();
 } else {
-	header("Location:login.php");
-	exit();
+    header("Location:login.php");
+    exit();
 }
-?>

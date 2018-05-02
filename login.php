@@ -1,6 +1,6 @@
-<html> 
-<head> 
-<title>Festival dell'Economia 2017</title> 
+<html>
+<head>
+<title>Festival dell'Economia 2017</title>
 </head>
 <body>
 <form method="post" action="start_session.php">
