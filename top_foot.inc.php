@@ -5,7 +5,8 @@ if (!isset($_SESSION['access'])) {
  	exit();
 }
 ?>
-<?php function top() { ?>
+<?php function top()
+{?>
 <html>
 <head>
 <meta name=generator content="Script di freephp.it">
@@ -15,8 +16,9 @@ if (!isset($_SESSION['access'])) {
 <h1>STUDIOANDROMEDA.NET</h1><br>
 <?php }
 
-function foot() { ?>
+function foot()
+{?>
 </font>
 </body>
 </html>
-<?php } ?>
+<?php }?>
