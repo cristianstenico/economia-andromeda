@@ -1,7 +1,8 @@
 <?php
 include("config.inc.php");
 if ($_POST["pass"] == $password) {
-	start_session();
+	session_start();
+	$_SESSION['access'] = true;
 	header("Location:insert.php");
 	exit();
 } else {

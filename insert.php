@@ -10,9 +10,6 @@ top();
 Files:<br/>
 <input type="file" name="immagini[]" multiple />
 <br /><br />
-Password:<br />
-<input type="password" size="40" name="pass" />
-<br /><br />
 <input type="submit" value="Inserisci" />
 </form>
 <?php

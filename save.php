@@ -10,9 +10,6 @@ if ($db == FALSE)
     die ("Errore nella connessione. Verificare i parametri nel file config.inc.php");
  mysql_select_db($db_name, $db)
     or die ("Errore nella selezione del database. Verificare i parametri nel file config.inc.php");
-$pass=$_REQUEST['pass'];
-if ($pass != $password)
-	die("Password errata!");
 if (isset($_FILES['immagini'])) {
 	$immagine = $_FILES['immagini'];
 	$fileCount = count($immagine["name"]);
