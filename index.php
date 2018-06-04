@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>Festival dell'Economia 2018</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta charset="UTF-8">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/lightbox.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/jquery-2.2.4.js"></script>
@@ -82,7 +82,7 @@ if (!isset($pag)) {
 }
 
 $pag2 = $pag + 20;
-$query = "SELECT id, nome, cognome, paese,image FROM $dati ORDER BY id LIMIT $pag,$pag2";
+$query = "SELECT id, nome, cognome, paese,image FROM $dati ORDER BY -premio DESC, id LIMIT $pag,$pag2";
 
 if (!isset($id)) {
     $id = 1;
